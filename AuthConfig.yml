@@ -7,6 +7,10 @@ spring:
     username: root
     password: manager
     url: jdbc:mysql://localhost:3306/ecommerceapp 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true           
 management:
   endpoints:
     web:
