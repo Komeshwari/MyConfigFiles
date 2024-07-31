@@ -1,7 +1,4 @@
-spring:
-  application:
-    name: AuthService
-  datasource:
+ datasource:
     url: jdbc:mysql://localhost:3306/ecommerceapp
     password: root
     username: manager
